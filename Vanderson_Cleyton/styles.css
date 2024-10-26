@@ -52,13 +52,13 @@ body {
 }
 
 .about-image {
-    width: 225px; /* Aumentado em 50% */
-    height: 300px; /* Aumentar a altura para evitar cortes */
-    border-radius: 50%;
-    border: 3px solid #fff;
+    width: 250 px; /* Ajuste para o tamanho desejado */
+    height: 250px; /* Mantenha a altura igual à largura para ser quadrada */
+    border: 3px solid #fff; /* Mantém a borda */
     margin-right: 20px;
-    object-fit: cover; /* Continua a cobrir o espaço */
+    object-fit: cover; /* Garante que a imagem cubra o espaço */
 }
+
 
 #conhecimentos {
     font-size: 20px;
@@ -76,7 +76,7 @@ body {
 
 .slider {
     display: flex;
-    animation: slide 20s linear infinite;
+    animation: slide 3000ms linear infinite;
 }
 
 .slider__image {
@@ -150,6 +150,7 @@ footer {
 
 /* Link do currículo */
 footer a.curriculo {
+    font-size: 14px;
     color: #fff; /* Cor padrão */
     text-decoration: underline; /* Sublinhado para destaque */
     font-weight: bold; /* Aumentar a ênfase */
@@ -183,18 +184,18 @@ footer a.curriculo:hover {
 .contato__content__item__icons {
     display: flex;
     justify-content: center;
-    gap: 28px; /* Espaçamento entre os ícones */
+    gap: 30px; /* Espaçamento entre os ícones */
 }
 
 .contato__content__item__icons__logo {
-    width: 40px; /* Ajuste o tamanho dos ícones */
-    height: 36px;
+    font-size: 30px; /* Ajuste o tamanho da fonte para os ícones */
     color: #494949; /* Cor padrão dos ícones */
     transition: color 0.3s; /* Transição suave para a cor */
 }
 
 .contato__content__item__icons__logo:hover {
     color: #00bcd4; /* Cor ao passar o mouse */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
 }
 
 
@@ -208,4 +209,4 @@ footer a.curriculo:hover {
     .about-image {
         margin-bottom: 20px; /* Espaço abaixo da imagem */
     }
-}    
+} 
