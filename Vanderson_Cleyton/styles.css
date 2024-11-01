@@ -54,7 +54,7 @@ body {
 .about-image {
     width: 250 px; /* Ajuste para o tamanho desejado */
     height: 250px; /* Mantenha a altura igual à largura para ser quadrada */
-    border: 3px solid #fff; /* Mantém a borda */
+    border: 5px solid #fff; /* Mantém a borda */
     margin-right: 20px;
     object-fit: cover; /* Garante que a imagem cubra o espaço */
 }
@@ -152,9 +152,12 @@ footer {
 footer a.curriculo {
     font-size: 14px;
     color: #fff; /* Cor padrão */
-    text-decoration: underline; /* Sublinhado para destaque */
     font-weight: bold; /* Aumentar a ênfase */
     transition: color 0.3s; /* Transição suave */
+    text-decoration: none;
+    border: 2px solid ;
+    padding: 5px;
+    border-radius: 15px;
 }
 
 footer a.curriculo:hover {
@@ -188,7 +191,7 @@ footer a.curriculo:hover {
 }
 
 .contato__content__item__icons__logo {
-    font-size: 30px; /* Ajuste o tamanho da fonte para os ícones */
+    font-size: 34px; /* Ajuste o tamanho da fonte para os ícones */
     color: #494949; /* Cor padrão dos ícones */
     transition: color 0.3s; /* Transição suave para a cor */
 }
